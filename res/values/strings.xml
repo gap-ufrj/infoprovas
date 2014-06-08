@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Infoprovas</string>
+    <string name="search">Procurar</string>
+    <string name="no_search">Clique na lupa acima e pesquise\n por professor ou disciplina.</string>
+    <string name="no_result">Nenhum resultado encontrado para a pesquisa realizada</string>
+    <string name="no_downloads">Você ainda não fez download de nenhuma prova.</string>
+</resources>

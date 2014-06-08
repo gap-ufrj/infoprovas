@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/presquisa_query" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:layout_marginTop="52dp"
+            android:singleLine="true" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:inputType="text"
+            android:drawableLeft="@drawable/ic_action_search" android:focusable="true"/>
+    <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Professor"
+            android:id="@+id/pesquisa_radio_professor" android:layout_below="@+id/presquisa_query"
+            android:layout_alignLeft="@+id/presquisa_query" android:layout_marginTop="50dp" android:textSize="20dp"/>
+    <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disciplina"
+            android:id="@+id/pesquisa_radio_disciplina"
+            android:layout_below="@+id/pesquisa_radio_professor"
+            android:layout_alignLeft="@+id/pesquisa_radio_professor" android:textSize="20dp"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pesquisar"
+            android:id="@+id/pesquisar_submit" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+            android:layout_marginBottom="55dp" android:layout_margin="35dp"/>
+</RelativeLayout>
